@@ -22,7 +22,7 @@ let emptyBtn = document.getElementById("red"),
     undoBtn = document.getElementById("green"),
     ol = document.getElementById("oList"),
     li = document.getElementsByTagName("li");
-input = document.getElementById("inp");
+    input = document.getElementById("inp");
 
 // dblclick on "li"
 for (let item of li) {
@@ -37,7 +37,7 @@ for (let item of li) {
 addBtn.addEventListener("click", () => {
     if (input.value != "") {
         let newLi = document.createElement("li");
-        newLi.innerHTML = input.value + `     added at ` + new Date().getHours().toString() + " : " + new Date().getMinutes().toString();
+        newLi.innerHTML = input.value + ` (added at ` + new Date().getHours().toString() + " : " + new Date().getMinutes().toString() + ")";
         ol.appendChild(newLi);
         input.value = "";
 
