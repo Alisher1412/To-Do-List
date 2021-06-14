@@ -1,0 +1,44 @@
+/* core styles */
+body{
+    text-align: center;
+    font-family: sans-serif;
+    margin: 100px;
+    background-color: rgb(26, 85, 29);
+}
+h1{
+    font-size: 36px;
+    font-weight: 500;
+    color: rgb(186, 236, 188);
+}
+form{
+    width: 400px;
+    background-color: rgb(81, 223, 86);
+    border-radius: 3%;
+    margin: auto 340px;
+    padding: 24px;
+}
+
+/* input styles */
+input{
+    padding: 16px;
+    margin: 4px;
+    border-radius: 8%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(17, 177, 57);
+    font-weight: 600;
+    font-size: 30px;
+    border: 1px solid green;
+    width: 78px;
+}
+input[type=text]{
+    width: 230px;
+    color: rgb(199, 255, 199);
+    font-size: 18px;
+    height: 40px;
+}
+input:hover{
+    opacity: 0.85;
+}
+input[type=text]:hover{
+    opacity: 1;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./icon.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="pl">
+            <h1>My to-do list</h1>
+            <p><i>Double click an item to mark it complete</i></p>
+
+            <!-- time -->
+            <h1 class="time"> <span>Now: </span>
+                <span class="hours">00</span> :
+                <span class="minutes">00</span> :
+                <span class="seconds">00</span>
+            </h1>
+
+            <!-- input -->
+            <input type="text" id="inp"><br>
+            <button class="btn" id="add">Add</button>
+            <div class="clearfix"></div>
+
+            <!-- list -->
+            <div class="list">
+                <ol id="oList">
+                </ol>
+            </div>
+
+            <!-- buttons -->
+            <div class="clearfix"></div>
+            <div class="btns">
+                <button class="btn" id="blue">Clear completed</button>
+                <button class="btn" id="red">Empty list</button>
+                <button class="btn" id="green">Undo</button><br>
+            </div>
+
+        </div>
+
+        
+        <!-- link -->
+        <a href="calculator.html" id="calc" target="_blank">My Calculator</a>
+    </div>
+    <script src="./index.js"></script>
+
+</body>
+
+</html>
